@@ -1,7 +1,2 @@
 discord.py
 aiohttp
-colorama
-dhooks
-retrying
-python-dotenv
-flask
