@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: discord-rank-shop-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: python discord_rank_shop_bot.py
+    envVars:
+      - key: TOKEN
+        value: YOUR_DISCORD_BOT_TOKEN
+      - key: ADMIN_CHANNEL_ID
+        value: "123456789012345678"
+      - key: BUYER_CHANNEL_ID
+        value: "123456789012345678"
+      - key: ALLOWED_USER_ID
+        value: "123456789012345678"
+      - key: TRUEWALLET_API_KEY
+        value: YOUR_TRUEWALLET_API_KEY
+      - key: TRUEWALLET_PHONE
+        value: "0XXXXXXXXX"
